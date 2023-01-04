@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Red (Taylor's Version)</title>
+        <style>
+            body {
+      background-image: url('6000.webp');
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      background-size:cover;}      
+      .div {
+        margin-top: 30px;
+        margin-left: 320px;
+        margin-right: 320px ;
+        padding: auto;
+        background-color: rgba(204, 26, 26, 0.662);
+        opacity: 0.7;
+      }
+      
+      p {
+padding-left: 40px; 
+padding-right: 40px;       
+color: rgb(233, 201, 201);
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;      }
+
+        .video-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-item video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.video-item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  height: 270px;
+  width: 480px;
+}
+
+h1 {
+    background-color: black;
+    color:solid maroon;
+    text-shadow:10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@supports (display: grid) {
+
+  .video-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin: 35px;
+  }
+  
+  .video-item {
+    margin-top: 0;
+  }
+  
+  .video-item video {
+    border: 0.125rem solid transparent;
+  }
+
+  .video-item:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  .video-item:nth-child(2) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .video-item:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+  .video-item:nth-last-child(-n+1):first-child,
+  .video-item:nth-last-child(-n+1):first-child ~ .video-item {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+}
+        </style>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="TS-Midnights-Logo.PNG.webp" alt="13" height="30"></a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Back</a></li>
+                <li><a href="red_lyrics.html">Lyrics</a></li>
+              </ul>
+            </div>
+          </nav>
+          <center><img src="Red_(Taylor's_Version)_logo.svg.png" alt="" width="200"></center>
+          <br>
+          <img src="redtvera.jpg" alt="" width="1518.7" height="auto" style="opacity: 0.85;">
+          <center><div class="div">
+            <br>
+            <h1 style="font-family:viner hand itc; color:beige;"><b>foreword</b></h1>
+          <p>I've always said that the world is a different place for the heartbroken. It moves on a different axis, at a different speed. Time skips backwards and forwards fleetingly. The heartbroken might go through thousands of micro-emotions a day trying to figure out how to get through it without picking up the phone to hear that old familiar voice. In the land of heartbreak, moments of strength, independence, and devil-may-care rebellion are intricately woven together with grief, paralyzing vulnerability and hopelessness. Imagining your future might always take you on a detour back to the past.</p>
+
+            <p>Musically and lyrically, Red resembled a heartbroken person. It was all over the place, a fractured mosaic of feelings that somehow all fit together in the end. Happy, free, confused, lonely, devastated, euphoric, wild, and tortured by memories past. Like trying on pieces of a new life, I went into the studio and experimented with different sounds and collaborators. And I'm not sure if it was pouring my thoughts into this album, hearing thousands of your voices sing the lyrics back to me in passionate solidarity, or if it was simply time, but something was healed along the way.</p>
+            
+            <p>Sometimes you need to talk it over (over and over and over) for it to ever really be… over. Like your friend who calls you in the middle of the night going on and on about their ex, I just couldn't stop writing.</p>
+   
+   <br>
+         </div></center>
+         <br>
+         <br>
+         <br>
+          <h1 style="color:maroon;"><b>Music Videos</b></h1>
+
+          <div class="video-grid">
+            <div class="video-item">
+              <div class="video-wrap">
+                <video src="atw10.mp4" width="640" height="360" poster="all-too-well-short-film.webp" controls ></video>
+              </div>
+            </div>
+
+          <div class="video-item">
+            <div class="video-wrap">
+              <video src="ibytam.mp4" width="640" height="360" poster="ibytam_thumbnail.jpg" controls></video>
+            </div>
+          </div>
+          <div class="video-item">
+            <div class="video-wrap">
+              <video src="snl.mp4" width="640" height="360" poster="snl.jpg" controls></video>
+            </div>
+          </div>
+        </div>
+          </body>
+</html>
