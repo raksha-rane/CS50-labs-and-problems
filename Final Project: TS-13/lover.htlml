@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lover</title>
+    </head>
+    <style>
+        .h1 {
+    background-color: plum;
+    color:solid rgb(207, 186, 160);
+    text-shadow:10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.video-wrap {
+  position: relative;
+  padding-bottom: 56.25%;}
+  
+.video-item video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.video-item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  height: 270px;
+  width: 480px;
+}
+
+        .div {
+        margin-top: 30px;
+        margin-left: 220px;
+        margin-right: 220px ;
+        padding: auto;
+        background-color: whitesmoke;
+        opacity: 0.6;
+      }
+      .grid-container {
+        margin: 40px;
+  display: grid;
+  gap:10px;
+  grid-template-columns: auto auto;
+}
+      p {
+padding-left: 40px; 
+padding-right: 40px;       
+color: black;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;      }
+        body {
+            background-image: url("lover_sky.jpg");
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+      background-size:cover;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <body>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="TS-Midnights-Logo.PNG.webp" alt="13" height="30"></a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Back</a></li>
+                <li><a href="folklore_lyrics.html">Lyrics</a></li>
+                  </ul>
+            </div>
+          </nav>
+<center><img src="Lover_Taylor_Swift.svg" alt="" width="444"></center>
+          <center><div class="div">
+            <br>
+            <h1 style="font-family:viner hand itc; color:black;"><b>foreword</b></h1>
+          <p>When I found old diaries from my childhood and my teens, they were covered in dust. I'm not just saying that for poetic effect, they were truly dusty with pictures drawn of first day of school outfits and inspirational quotes I used to retrace over and over to get me through doubtful moments. I'd practice my autograph and tape my guitar picks to the pages. In the entries, I daydreamed on paper and mused about who might ask who to the dance or how nervous I was saying the national anthem at the local baseball game. I frequently and drastically changed my opinions on love, friends, confidence and trust. I vented, described memories in detail, jotted down new song ideas and questioned why I would ever try to shoot for a career I had such a small chance of ever attaining.</p>
+
+           <p>But what shocked me the most was how often I wrote down the things I loved. Writing a new song, riding in the car with my mom, the purple-pink skies of the soccer field on the walk home, the one night in middle school when none of my friends were fighting, the dazzle of opal necklaces I couldn't afford gleaming from a department store jewelry case. I wrote about tiny details in my life in these diaries from a bygone age with such... wonderment. Intrigue. Romance. I noticed things and decided they were romantic, and so they were.</p>
+            
+           <p>In life, we grow up and we encounter the nuanced complexities of trying to figure out who to be, how to act, or how to be happy. Like invisible smoke in the room, we wonder what kind of anxiety pushes you forward and what kind ruins your ability to find joy in your life. We constantly question our choices, our surroundings, and we beat ourselves up for our mistakes. All the while, we crave romance. We long for those rare, enchanting moments when things just fall into place. Above all else, we really, really want our lives to be filled with love.</p>
+            
+           <p>I've decided that in this life, I want to be defined by the things I love- not the things I hate, the things I'm afraid of, or the things that haunt me in the middle of the night. Those things may be struggles, but they're not my identity. I wish the same for you. May your struggles become inaudible background noise behind the loud, clear voices of those who love and appreciate you. Turn those voices up in the mix in your head. May you take notice of the things in your life that are nice and make you feel safe and maybe even find wonderment in them. May you write down your feelings and reflect on them years later, only to learn all the trials and the tribulations you thought might kill you... didn't. I hope that someday you forget the pain ever existed. I hope that if there is a lover in your life, it's someone who deserves you. If that's the case, I hope you treat them with care.</p>
+            
+            <p>This album is a love letter to love itself- all the captivating, spellbinding, maddening devastating red, blue, gray, golden aspects of it (that's why there are so many songs).</p>
+           <p>In honor of fever dreams, bad boys, confessions of love on a drunken night out, Christmas lights still hanging in January, guitar string scars on my hands, false gods and blind faith, memories of jumping into an icy outdoor pool, creaks in floorboards and ultraviolet morning light, finally finding a friend, and opening the curtains to see the clearest, brightest daylight after the darkest night.</p>
+            
+           <p>We are what we love.
+            This is Lover.</p>
+   <br>
+   <br>
+         </div></center>
+         <br>
+         <br>
+         <h1 class="h1"><b>Music Videos</b></h1>
+         <div class="grid-container">
+            <div class="video-item">
+                    <div class="video-wrap">
+                      <video src="mv_lover.mp4" poster="lover_thmb.jpg" width="640" height="360" controls ></video>
+                    </div>
+            </div>
+            <div class="video-item">
+                <div class="video-wrap">
+                  <video src="mv_theman.mp4" poster="man_thmb.jpg" width="640" height="360" controls ></video>
+                </div>
+        </div>
+        <div class="video-item">
+            <div class="video-wrap">
+              <video src="mv_yntcd.mp4" poster="yntcd_thmb.jpg" width="640" height="360" controls ></video>
+            </div>
+    </div>
+    <div class="video-item">
+        <div class="video-wrap">
+          <video src="mv_me!.mp4" poster="me_thmb.jpg" width="640" height="360" controls ></video>
+        </div>
+</div>
+
+         </div>
+         
+    </body>
+</html>
