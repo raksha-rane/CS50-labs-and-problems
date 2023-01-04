@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TS-13 : Homepage</title>
+  <style>
+    p {
+      opacity: 0;
+      color:burlywood;
+    }
+    .bg {
+  /* The image used */
+  background-image: url("homepage_bg.jpg");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+    h1 {
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color:navajowhite;
+      font-size: 400px;
+    }
+
+    div > h1 {
+      padding:20px;
+      margin: 10px;
+
+    }
+
+    .buttn {
+      background-color:rgba(96, 102, 194, 0.759);
+      border:2px;
+      transition-duration: 0.4s;
+      color:azure;
+      padding: 5px 12px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      }
+
+      .buttn:hover {
+      background-color: #4CAF50; /* Green */
+      color: white;
+      }
+
+      h2 {
+      text-align: center;
+    }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    /* CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
+}
+
+.register {
+    border-radius: 24px;
+    width: 25vw;
+    /* 1% of the viewport's width. */
+    margin-top: 120px;
+    margin-left: 38%;
+    padding: 20px;
+    background-color: rgba(239, 240, 241, 0.751);
+    opacity: 0.4;
+}
+
+.register:hover{
+  opacity: 0.8;
+}
+
+.input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    background-color: rgb(176, 192, 202);
+}
+
+header {
+    font-size: 2rem;
+    /* rem = root em */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    color: #fff;
+    background: #000000;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    /* The cursor property specifies the mouse cursor to be displayed when pointing over an element. */
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background: #24252a;
+}
+
+.button:active {
+    background: #f11212;
+}
+
+
+
+footer {
+    background: black;
+    color: rgb(255, 255, 255);
+    padding: 9px 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+    </style>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+    function myFunction() {
+      let text;
+      let person = prompt("Please enter your name:");
+      if (person == null || person == "") {
+        text = "Welcome to TS-13, it's been waiting for you.";
+      } else {
+        text = "Hello, " + person + "! Welcome to TS-13, it's been waiting for you!";
+      }
+      document.getElementById("demo").innerHTML = text;
+    }
+    </script>
+</head>
+<body class="bg">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://www.taylorswift.com/" target="_blank"><img src="TS-Midnights-Logo.PNG.webp" alt="13" height="30"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Albums<span class="caret"></span></a>
+        <ul style="background-color: rgba(123, 217, 209, 0.984);"class="dropdown-menu">
+          <li><a href="redtv.html" target="_blank">Red (Taylor's Version)</a></li>
+          <li><a href="lover.html" target="_blank">Lover</a></li>
+          <li><a href="folklore.html" target="_blank">folklore</a></li>
+          <li><a href="evermore.html" target="_blank">evermore</a></li>
+          <li><a href="midnights.html" target="_blank">Midnights</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Merch<span class="caret"></span></a>
+        <ul style="background-color: plum;"class="dropdown-menu">
+        <li><a href="https://store.taylorswift.com/collections/red-taylors-version-shop" target="_blank">Red (TV) Merch</a></li>
+        <li><a href="https://store.taylorswift.com/collections/lover-album-shop" target="_blank">Lover Merch</a></li>
+        <li><a href="https://store.taylorswift.com/collections/folklore-album-shop" target="_blank">folklore Merch</a></li>
+        <li><a href="https://store.taylorswift.com/collections/taylor-swift-evermore-album-shop" target="_blank">evermore Merch</a></li>
+        <li><a href="https://store.taylorswift.com/collections/taylor-swift-midnights-album-shop-1" target="_blank">Midnights Merch</a></li>
+        <li><a href="https://store.taylorswift.com/collections/fearless-taylors-version-shop">Fearless (Taylor's Version)</a></li>
+        </ul>
+      </li>
+      <li><a href="https://www.taylorswift.com/events/">Tour</a></li>
+    </ul>
+  </div>
+</nav>
+
+<center><h1 style="color: rgba(86, 157, 195, 0.84); font-size:89px; font-family: garamond">TS-13</h1></center>
+<br>
+<center><button class="buttn" onclick="myFunction()">Click here!</button></center>
+<br>
+<h2 style="color:rgba(230, 237, 238, 0.964);   text-shadow: 2px 2px #000000; font-family:'georgia';" id="demo"></h2>
+
+<div class="register">
+  <header>Signup</header>
+  <form>
+      <input class="input" type="text" name="name" placeholder="Enter your name"> <br> <br>
+      <input class="input" type="email" name="email" placeholder="Enter your email"> <br> <br>
+      <input class="input" type="number" name="number" placeholder="Enter your number"> <br><br>
+      <input class="input" type="password" name="password" placeholder="Create a password"> <br> <br>
+      <input class="input" type="password" name="cpassword" placeholder="Confirm a password"> <br> <br>
+      <input type="checkbox" name="checkbox" id="check" checked>
+      <label for="check" class="text">I agree to all <a href="#">terms and conditions</a></label> <br><br>
+      <input type="submit" class="button" value="Signup"> <br> <br>
+      <span style="color: blue;" class="text">Already have an account?</span>
+      <a style="text-decoration: none;" href="#" class="text login-link">Login</a>
+  </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer>Developed and designed by Raksha Rane © Mumbai, Maharashtra
+</footer>
+
+</body>
+</html>
